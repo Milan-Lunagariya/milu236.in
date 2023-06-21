@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Code+Pro:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    //background-color: blue;
+    height: 68vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar {
+    background-color: rgb(198, 197, 197);
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+nav ul {
+    font-size: 20px;
+    padding: 23px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 35px 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    // background-color: yellow;
+    //width : 90vw;
+}
+
+.devPik img {
+    height: 68vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-left:5.5em;
+}
+
+.hello {
+    font-size: 3em;
+    
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.btn button {
+    background-color: cornflowerblue;
+    width: 23vh;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 19px;
+    padding: 10px;
+    margin: 7px 0px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: aliceblue;
+    color: rgb(55, 114, 225);
+}
+
+.contactform {
+    font-family: 'Roboto Slab', serif;
+    margin: 4em 2em;
+}
+
+.contactform h1 {
+    font-family: monospace;
+    font-weight: 900;
+    
+}
+
+.contactform div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.contactform div input[type=checkbox] {
+    align-self: flex-start;
+    width: auto;
+}
+
+.contactform div input {
+    order: 1px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: small;
+    /* width: 82vh; */
+    font-weight: 700;
+    //margin: 3px 0px;
+}
+
+.btn-sbt button {
+    background-color: green;
+    width: 90px;
+    color: white;
+}
+
+.btn-sbt button:hover {
+    box-shadow: 5px 5px 5px lightgreen;
+    color: green;
+    background-color: white;
+}
+
+#emailHelp {
+    color: navy;
+    font-size: 0.7rem;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    margin: 23px;
+}
+.blogcontainer{
+    margin: 3em 0em;
+}
+.blogItem {
+    margin: 15px 50px;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn-sm button {
+    width: 127px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+.devinfo h1 {
+    margin: 16px 0px;
+}
+
+.introcontainer h2 {
+    font-family: 'Roboto Slab', serif;
+    margin: 12px;
+    margin: 2em 2em;
+}
+
+.skillcontainer {
+    margin: 3px 0px 0px 45px;
+}
+
+.skill {
+    height: 12px;
+    width: 23px;
+    background-color: red;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 4px 0px 15px 13px;
+}
+
+.skillpik img {
+    height: 86px;
+    width: 318px;
+}
+.skillpik  {
+    margin: 1em;
+}
+
+.hundred {
+    width: 250px;
+    background-color: blue;
+}
+
+.sf {
+    width: 188px;
+    background-color: red;
+}
+
+.fifty {
+    width: 125px;
+    background-color: yellow;
+}
+
+.tf {
+    width: 75px;
+    background-color: green;
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    margin: 0em 0.3rem;
+}
+.croess{
+    margin-left: 103px;
+}
+.sidebarGo{
+    transform: translate(-152px, 0px);
+    position: absolute;
+}
+
+
+footer{
+    background-color: #222;
+    padding: 1em 4em;
+    display: flex;
+    margin: -5em -3.5em;
+}
+.footercontainer{
+    width : 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 1em;
+    background-color: aliceblue;
+    margin: 1.5em;
+    border-radius: 50%;
+}
+.socialicons a:hover{
+    background-color: #222;
+    transition: 0.5s ;
+}
+.socialicons a i{
+    font-size: 2em;
+    color :#111;
+    opacity: 0.9;
+}
+.socialicons a i:hover{
+    font-size: 2em;
+    color :#222;
+    opacity: 0.9;
+}
+.socialicons a:hover i{
+    color : white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footernav ul a{
+    color:aliceblue;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul a:hover{
+    opacity: 1;
+    transition: 0.5s ease-in;
+    color : red;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin: 0px 5px;
+}
+@media (max-width:700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+   
+    
+
+
+}
+@media (max-width : 1200px) {
+    * {
+        //background-color: pink;
+    }
+    .devPik{
+        display : none;
+    }
+    .contactform div input {
+        width: auto;
+        margin: 0em 0em;
+    }
+
+}
