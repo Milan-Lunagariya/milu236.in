@@ -1,5 +1,5 @@
 <?php 
-    $con = mysqli_connect("localhost","root","","project-2");
+    $con = mysqli_connect("localhost","Milan-Lunagariya","","project-2");
 
     
     $name = $_REQUEST['name'];
